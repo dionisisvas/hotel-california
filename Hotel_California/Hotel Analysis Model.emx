@@ -527,6 +527,7 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H608QACrEeGPlNxwpe8W4w" value="1"/>
           </ownedEnd>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-H3fgB4ZEeGFd8AlelcNJQ" name="RoomUI"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_FAXlAAClEeGPlNxwpe8W4w" name="controllers">
         <eAnnotations xmi:id="_FAYzIAClEeGPlNxwpe8W4w" source="uml2.diagrams" references="_FAYzIQClEeGPlNxwpe8W4w">
@@ -598,6 +599,7 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FXyeQAGcEeGdoJC_QhHj4Q"/>
           </ownedEnd>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mxmuQB4aEeGFd8AlelcNJQ" name="RoomController"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_aBjVQACkEeGPlNxwpe8W4w" name="Use Case Realizations">
@@ -2996,4 +2998,6 @@
   <RUPAnalysis:Boundary xmi:id="_ZL0DQACoEeGPlNxwpe8W4w" base_Class="_Ytl2MACoEeGPlNxwpe8W4w"/>
   <RUPAnalysis:Control xmi:id="_lKJdgACoEeGPlNxwpe8W4w" base_Class="_k_FdAACoEeGPlNxwpe8W4w"/>
   <RUPAnalysis:Boundary xmi:id="_-ODU8ACqEeGPlNxwpe8W4w" base_Class="_-DUroACqEeGPlNxwpe8W4w"/>
+  <RUPAnalysis:Boundary xmi:id="__QbqEB4ZEeGFd8AlelcNJQ" base_Class="_-H3fgB4ZEeGFd8AlelcNJQ"/>
+  <RUPAnalysis:Control xmi:id="_nk3XMB4aEeGFd8AlelcNJQ" base_Class="_mxmuQB4aEeGFd8AlelcNJQ"/>
 </xmi:XMI>
