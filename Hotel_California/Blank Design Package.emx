@@ -974,7 +974,7 @@
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_np3Cch1KEeGoZa_Yp02gKQ" type="OperationCompartment"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_np3Ccx1KEeGoZa_Yp02gKQ" visible="false" type="SignalCompartment"/>
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_np3CdB1KEeGoZa_Yp02gKQ" visible="false" type="StructureCompartment"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nptRch1KEeGoZa_Yp02gKQ" x="15444" y="6732"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nptRch1KEeGoZa_Yp02gKQ" x="14916" y="6732"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_qnQAoR1KEeGoZa_Yp02gKQ" element="_qnQAoB1KEeGoZa_Yp02gKQ" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <children xmi:type="notation:DecorationNode" xmi:id="_qnQAox1KEeGoZa_Yp02gKQ" type="ImageCompartment">
@@ -1222,6 +1222,8 @@
           <ownedAttribute xmi:id="_f7h9cB1NEeGoZa_Yp02gKQ" name="roomNumber" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UAL_LIBRARIES/UALPrimitiveDatatypes.emx#_h28iAFIzEd2exLDlzlaiIA?UALPrimitiveDatatypes/int?"/>
           </ownedAttribute>
+          <ownedAttribute xmi:id="_rfyIcB55EeGrkI6I3JOA3g" name="bed" visibility="private" type="_BUDoYB1OEeGoZa_Yp02gKQ"/>
+          <ownedAttribute xmi:id="_mf3R0B55EeGrkI6I3JOA3g" name="type" visibility="private" type="_p_-TUB1MEeGoZa_Yp02gKQ"/>
           <ownedAttribute xmi:id="_0_opYB1NEeGoZa_Yp02gKQ" name="availability" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedAttribute>
