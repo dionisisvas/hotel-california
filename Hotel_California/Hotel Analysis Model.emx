@@ -475,6 +475,20 @@
           </ownedEnd>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_rJWn4ACdEeGPlNxwpe8W4w" memberEnd="_rJaSQACdEeGPlNxwpe8W4w _rJd8oACdEeGPlNxwpe8W4w"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6Y8CMCKkEeGSMq9XC72Y2A" name="Offer">
+          <ownedAttribute xmi:id="__KlzUCKkEeGSMq9XC72Y2A" name="name" visibility="private">
+            <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="__KnBcCKkEeGSMq9XC72Y2A" name="startingDate" visibility="private">
+            <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="__KnogCKkEeGSMq9XC72Y2A" name="endingDate" visibility="private">
+            <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="__KoPkCKkEeGSMq9XC72Y2A" name="percentage" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://ROSE_LIBRARIES/RoseAnalysisDatatypes.emx#_GsfZ4Af0EdmmcbnrymMrWg?RoseAnalysisDatatypes/Double?"/>
+          </ownedAttribute>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_C7j0oAClEeGPlNxwpe8W4w" name="boundaries">
         <eAnnotations xmi:id="_C7lCwAClEeGPlNxwpe8W4w" source="uml2.diagrams" references="_C7lCwQClEeGPlNxwpe8W4w">
@@ -2914,4 +2928,5 @@
   <RUPAnalysis:Control xmi:id="_nk3XMB4aEeGFd8AlelcNJQ" base_Class="_mxmuQB4aEeGFd8AlelcNJQ"/>
   <RUPAnalysis:Boundary xmi:id="_WAIB8B7GEeGWY4WntWEt3w" base_Class="_VZ1eAB7GEeGWY4WntWEt3w"/>
   <RUPAnalysis:Control xmi:id="_hV2HkB7HEeGWY4WntWEt3w" base_Class="_g-APUB7HEeGWY4WntWEt3w"/>
+  <RUPAnalysis:Entity xmi:id="_65fxkCKkEeGSMq9XC72Y2A" base_Class="_6Y8CMCKkEeGSMq9XC72Y2A"/>
 </xmi:XMI>
