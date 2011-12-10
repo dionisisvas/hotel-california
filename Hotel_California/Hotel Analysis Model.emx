@@ -376,7 +376,7 @@
           <ownedOperation xmi:id="_7JXAkAGJEeGdoJC_QhHj4Q" name="Customer customer : findCustomer(firstName : String, lastName : String)"/>
           <ownedOperation xmi:id="_DR3mgAGPEeGdoJC_QhHj4Q" name="Customer customer : SetAccount(address:Address)"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_piwS8ACcEeGPlNxwpe8W4w" name="Discount">
+        <packagedElement xmi:type="uml:Class" xmi:id="_piwS8ACcEeGPlNxwpe8W4w" name="Offer">
           <ownedAttribute xmi:id="_qpM9oACcEeGPlNxwpe8W4w" name="discountID" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
           </ownedAttribute>
@@ -418,7 +418,7 @@
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4bhBgQCdEeGPlNxwpe8W4w" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4bhBgACdEeGPlNxwpe8W4w" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:id="_G2SpAACeEeGPlNxwpe8W4w" name="discount" visibility="private" type="_piwS8ACcEeGPlNxwpe8W4w" association="_G2NJcACeEeGPlNxwpe8W4w">
+          <ownedAttribute xmi:id="_G2SpAACeEeGPlNxwpe8W4w" name="offer" visibility="private" type="_piwS8ACcEeGPlNxwpe8W4w" association="_G2NJcACeEeGPlNxwpe8W4w">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_G2SpAgCeEeGPlNxwpe8W4w" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_G2SpAQCeEeGPlNxwpe8W4w"/>
           </ownedAttribute>
@@ -543,6 +543,7 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_-H3fgB4ZEeGFd8AlelcNJQ" name="RoomUI"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_VZ1eAB7GEeGWY4WntWEt3w" name="StatisticUI"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_LP2mECLTEeGRet_CnmqDYA" name="OfferUI"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_FAXlAAClEeGPlNxwpe8W4w" name="controllers">
         <eAnnotations xmi:id="_FAYzIAClEeGPlNxwpe8W4w" source="uml2.diagrams" references="_FAYzIQClEeGPlNxwpe8W4w">
@@ -606,6 +607,7 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_mxmuQB4aEeGFd8AlelcNJQ" name="RoomController"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_g-APUB7HEeGWY4WntWEt3w" name="StatisticController"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3xE5MCLSEeGRet_CnmqDYA" name="OfferController"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_aBjVQACkEeGPlNxwpe8W4w" name="Use Case Realizations">
@@ -2929,4 +2931,6 @@
   <RUPAnalysis:Boundary xmi:id="_WAIB8B7GEeGWY4WntWEt3w" base_Class="_VZ1eAB7GEeGWY4WntWEt3w"/>
   <RUPAnalysis:Control xmi:id="_hV2HkB7HEeGWY4WntWEt3w" base_Class="_g-APUB7HEeGWY4WntWEt3w"/>
   <RUPAnalysis:Entity xmi:id="_65fxkCKkEeGSMq9XC72Y2A" base_Class="_6Y8CMCKkEeGSMq9XC72Y2A"/>
+  <RUPAnalysis:Control xmi:id="_4E5NECLSEeGRet_CnmqDYA" base_Class="_3xE5MCLSEeGRet_CnmqDYA"/>
+  <RUPAnalysis:Boundary xmi:id="_L-DI0CLTEeGRet_CnmqDYA" base_Class="_LP2mECLTEeGRet_CnmqDYA"/>
 </xmi:XMI>
