@@ -5450,9 +5450,6 @@
             <ownedAttribute xmi:id="_3Znf4B1KEeGoZa_Yp02gKQ" name="lastName" visibility="private">
               <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_GRCnsCArEeGAn4sJMyy2Cg" name="idNum" visibility="private">
-              <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6HzWAddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Integer?"/>
-            </ownedAttribute>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_kHDqEB1KEeGoZa_Yp02gKQ" name="Reservation" clientDependency="_acsfcB68EeGRAvLg-O8iSA">
             <ownedAttribute xmi:id="_RcUMwB1LEeGoZa_Yp02gKQ" name="totalPrice" visibility="private">
