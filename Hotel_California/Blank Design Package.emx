@@ -5108,19 +5108,19 @@
             </contents>
           </eAnnotations>
           <packagedElement xmi:type="uml:Interface" xmi:id="_jPEXQB38EeGFd8AlelcNJQ" name="GenericDAO">
-            <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_q7VAoCEjEeGBcbBR7HlMgA" parameter="_q7W10CEjEeGBcbBR7HlMgA">
-              <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_q7W10CEjEeGBcbBR7HlMgA" parameteredElement="_JF8dwCEnEeGBcbBR7HlMgA">
-                <ownedParameteredElement xmi:type="uml:Class" xmi:id="_JF8dwCEnEeGBcbBR7HlMgA" name="T" templateParameter="_q7W10CEjEeGBcbBR7HlMgA"/>
+            <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_q7VAoCEjEeGBcbBR7HlMgA" parameter="_o-rUMCapEeGgVetHUvZbYw">
+              <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_o-rUMCapEeGgVetHUvZbYw" parameteredElement="_o-twcCapEeGgVetHUvZbYw">
+                <ownedParameteredElement xmi:type="uml:Class" xmi:id="_o-twcCapEeGgVetHUvZbYw" name="T" templateParameter="_o-rUMCapEeGgVetHUvZbYw"/>
               </ownedParameter>
             </ownedTemplateSignature>
             <ownedOperation xmi:id="_oXC9sB38EeGFd8AlelcNJQ" name="findAll">
-              <ownedParameter xmi:id="_iSZfICEnEeGBcbBR7HlMgA" name="find" type="_JF8dwCEnEeGBcbBR7HlMgA" isOrdered="true" direction="return"/>
+              <ownedParameter xmi:id="_iSZfICEnEeGBcbBR7HlMgA" name="find" isOrdered="true" direction="return"/>
             </ownedOperation>
             <ownedOperation xmi:id="_vY6d8B38EeGFd8AlelcNJQ" name="save">
-              <ownedParameter xmi:id="_m3A50CEnEeGBcbBR7HlMgA" name="save" type="_JF8dwCEnEeGBcbBR7HlMgA"/>
+              <ownedParameter xmi:id="_m3A50CEnEeGBcbBR7HlMgA" name="save"/>
             </ownedOperation>
             <ownedOperation xmi:id="_wZvBwB38EeGFd8AlelcNJQ" name="delete">
-              <ownedParameter xmi:id="_pNoL4CEnEeGBcbBR7HlMgA" name="del" type="_JF8dwCEnEeGBcbBR7HlMgA"/>
+              <ownedParameter xmi:id="_pNoL4CEnEeGBcbBR7HlMgA" name="del"/>
             </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_9OCasB38EeGFd8AlelcNJQ" name="ReservationDAO">
@@ -5152,7 +5152,7 @@
             </ownedOperation>
             <ownedOperation xmi:id="_9qQFICA3EeGAn4sJMyy2Cg" name="delete"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_JcNAsB39EeGFd8AlelcNJQ" name="DAOFactory" isAbstract="true">
+          <packagedElement xmi:type="uml:Class" xmi:id="_JcNAsB39EeGFd8AlelcNJQ" name="DAOFactory" clientDependency="_wos-cCaaEeGgVetHUvZbYw" isAbstract="true">
             <ownedAttribute xmi:id="_ZHRo0CEmEeGBcbBR7HlMgA" name="factory" visibility="private" isStatic="true" type="_JcNAsB39EeGFd8AlelcNJQ"/>
             <ownedOperation xmi:id="_uZBkoCElEeGBcbBR7HlMgA" name="getInstance" visibility="public" isStatic="true">
               <ownedParameter xmi:id="_-YAJ0CElEeGBcbBR7HlMgA" name="dAO" type="_JcNAsB39EeGFd8AlelcNJQ" direction="return"/>
@@ -5178,12 +5178,12 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_9F1pQCEjEeGBcbBR7HlMgA" name="GenericDAO&lt;Customer>">
             <templateBinding xmi:id="_9GODwCEjEeGBcbBR7HlMgA" signature="_q7VAoCEjEeGBcbBR7HlMgA">
-              <parameterSubstitution xmi:id="_9GXNsCEjEeGBcbBR7HlMgA" formal="_q7W10CEjEeGBcbBR7HlMgA" actual="_cpxZIB1KEeGoZa_Yp02gKQ"/>
+              <parameterSubstitution xmi:id="_9GXNsCEjEeGBcbBR7HlMgA" actual="_cpxZIB1KEeGoZa_Yp02gKQ"/>
             </templateBinding>
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_YN1KQCEkEeGBcbBR7HlMgA" name="GenericDAO&lt;Room>">
             <templateBinding xmi:id="_YN3mgCEkEeGBcbBR7HlMgA" signature="_q7VAoCEjEeGBcbBR7HlMgA">
-              <parameterSubstitution xmi:id="_YN4NkCEkEeGBcbBR7HlMgA" formal="_q7W10CEjEeGBcbBR7HlMgA" actual="_m1aGsB1KEeGoZa_Yp02gKQ"/>
+              <parameterSubstitution xmi:id="_YN4NkCEkEeGBcbBR7HlMgA" actual="_m1aGsB1KEeGoZa_Yp02gKQ"/>
             </templateBinding>
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_r5eHICLUEeGRet_CnmqDYA" name="OfferDAO">
@@ -5205,12 +5205,12 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_o5KF4CLWEeGRet_CnmqDYA" name="GenericDAO&lt;Offer>">
             <templateBinding xmi:id="_o5KF4iLWEeGRet_CnmqDYA" signature="_q7VAoCEjEeGBcbBR7HlMgA">
-              <parameterSubstitution xmi:id="_o5T24CLWEeGRet_CnmqDYA" formal="_q7W10CEjEeGBcbBR7HlMgA" actual="_nptRcB1KEeGoZa_Yp02gKQ"/>
+              <parameterSubstitution xmi:id="_o5T24CLWEeGRet_CnmqDYA" actual="_nptRcB1KEeGoZa_Yp02gKQ"/>
             </templateBinding>
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_p9l3sCaiEeGgVetHUvZbYw" name="GenericDAO&lt;Reservation>">
             <templateBinding xmi:id="_p9ns4CaiEeGgVetHUvZbYw" signature="_q7VAoCEjEeGBcbBR7HlMgA">
-              <parameterSubstitution xmi:id="_p9ns4SaiEeGgVetHUvZbYw" formal="_q7W10CEjEeGBcbBR7HlMgA" actual="_kHDqEB1KEeGoZa_Yp02gKQ"/>
+              <parameterSubstitution xmi:id="_p9ns4SaiEeGgVetHUvZbYw" actual="_kHDqEB1KEeGoZa_Yp02gKQ"/>
             </templateBinding>
           </packagedElement>
         </packagedElement>
@@ -5885,7 +5885,7 @@
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G7GJ0SaYEeGgVetHUvZbYw" points="[-49, 23, 110, -97]$[-150, 59, 9, -61]"/>
               </edges>
-              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_wo9dICaaEeGgVetHUvZbYw" element="_wos-cCaaEeGgVetHUvZbYw" source="_Fjh58CaYEeGgVetHUvZbYw" target="_zggrUCaVEeGgVetHUvZbYw" fontName="Ubuntu" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_wo9dICaaEeGgVetHUvZbYw" element="_wos-cCaaEeGgVetHUvZbYw" source="_zggrUCaVEeGgVetHUvZbYw" target="_Fjh58CaYEeGgVetHUvZbYw" fontName="Ubuntu" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
                 <children xmi:type="notation:DecorationNode" xmi:id="_wo-rQCaaEeGgVetHUvZbYw" type="KindLabel">
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_wo_SUCaaEeGgVetHUvZbYw" type="Stereotype"/>
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_wpAgcCaaEeGgVetHUvZbYw" type="Kind"/>
@@ -5893,7 +5893,8 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wo-rQSaaEeGgVetHUvZbYw" y="-186"/>
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wo9dISaaEeGgVetHUvZbYw" points="[41, 237, -1226, -2565]$[41, 1189, -1226, -1613]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xTWd8CaaEeGgVetHUvZbYw" id="(0.17675544794188863,0.8134110787172012)"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xTWd8CaaEeGgVetHUvZbYw" id="(0.014651038891848695,0.2884153661464586)"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BEtncCanEeGgVetHUvZbYw" id="(0.06476997578692494,0.7551020408163265)"/>
               </edges>
               <edges xmi:type="umlnotation:UMLConnector" xmi:id="_-S_kMCaaEeGgVetHUvZbYw" element="_-Syv4CaaEeGgVetHUvZbYw" source="_Fjh58CaYEeGgVetHUvZbYw" target="_hZxdgCaXEeGgVetHUvZbYw" fontName="Ubuntu" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
                 <children xmi:type="notation:DecorationNode" xmi:id="_-TAyUCaaEeGgVetHUvZbYw" type="KindLabel">
@@ -6032,10 +6033,10 @@
           <packagedElement xmi:type="uml:Realization" xmi:id="_XfUpECLSEeGRet_CnmqDYA" client="_UDrooCLSEeGRet_CnmqDYA">
             <supplier xmi:type="uml:Class" href="Hotel%20Analysis%20Model.emx#_6Y8CMCKkEeGSMq9XC72Y2A?Hotel%20Analysis%20Model/Analysis%20Classes/entities/Offer?"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_C0v_gCaYEeGgVetHUvZbYw" name="JpaDAOFactory" clientDependency="_wos-cCaaEeGgVetHUvZbYw _-Syv4CaaEeGgVetHUvZbYw _A47rsCabEeGgVetHUvZbYw _EfFTACabEeGgVetHUvZbYw _FfqmQCabEeGgVetHUvZbYw">
+          <packagedElement xmi:type="uml:Class" xmi:id="_C0v_gCaYEeGgVetHUvZbYw" name="JpaDAOFactory" clientDependency="_-Syv4CaaEeGgVetHUvZbYw _A47rsCabEeGgVetHUvZbYw _EfFTACabEeGgVetHUvZbYw _FfqmQCabEeGgVetHUvZbYw">
             <generalization xmi:id="_G7DGgCaYEeGgVetHUvZbYw" general="_JcNAsB39EeGFd8AlelcNJQ"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Usage" xmi:id="_wos-cCaaEeGgVetHUvZbYw" supplier="_JcNAsB39EeGFd8AlelcNJQ" client="_C0v_gCaYEeGgVetHUvZbYw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_wos-cCaaEeGgVetHUvZbYw" supplier="_C0v_gCaYEeGgVetHUvZbYw" client="_JcNAsB39EeGFd8AlelcNJQ"/>
           <packagedElement xmi:type="uml:Usage" xmi:id="_-Syv4CaaEeGgVetHUvZbYw" supplier="_WQ_YcB4WEeGFd8AlelcNJQ" client="_C0v_gCaYEeGgVetHUvZbYw"/>
           <packagedElement xmi:type="uml:Usage" xmi:id="_A47rsCabEeGgVetHUvZbYw" supplier="_L2nEQB4WEeGFd8AlelcNJQ" client="_C0v_gCaYEeGgVetHUvZbYw"/>
           <packagedElement xmi:type="uml:Usage" xmi:id="_EfFTACabEeGgVetHUvZbYw" supplier="_YhFy0B4WEeGFd8AlelcNJQ" client="_C0v_gCaYEeGgVetHUvZbYw"/>
