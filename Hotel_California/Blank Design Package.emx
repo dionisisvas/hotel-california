@@ -1111,8 +1111,8 @@
           <message xmi:id="_utM5wCMmEeGDEcXqDWiNpQ" name="\Εξόφληση Λογαριασμού\" messageSort="asynchCall" receiveEvent="_utOH4CMmEeGDEcXqDWiNpQ" sendEvent="_utNg0CMmEeGDEcXqDWiNpQ" connector="_W-2VcCMjEeGDEcXqDWiNpQ"/>
           <message xmi:id="_DG_gkCMrEeGDEcXqDWiNpQ" name="setPaid" receiveEvent="_DHBVwCMrEeGDEcXqDWiNpQ" sendEvent="_DHAusCMrEeGDEcXqDWiNpQ" connector="_DHDK8CMrEeGDEcXqDWiNpQ"/>
           <message xmi:id="_DHCj4CMrEeGDEcXqDWiNpQ" name="setPaid" messageSort="reply" receiveEvent="_DHCj4SMrEeGDEcXqDWiNpQ" sendEvent="_DHB80CMrEeGDEcXqDWiNpQ" connector="_DHDK8CMrEeGDEcXqDWiNpQ"/>
-          <message xmi:id="_PFN2ACM_EeGDEcXqDWiNpQ" name="save" receiveEvent="_PFOdECM_EeGDEcXqDWiNpQ" sendEvent="_PFN2ASM_EeGDEcXqDWiNpQ" connector="_PFQSQSM_EeGDEcXqDWiNpQ"/>
-          <message xmi:id="_PFPrMCM_EeGDEcXqDWiNpQ" name="save" messageSort="reply" receiveEvent="_PFQSQCM_EeGDEcXqDWiNpQ" sendEvent="_PFPEISM_EeGDEcXqDWiNpQ" connector="_PFQSQSM_EeGDEcXqDWiNpQ"/>
+          <message xmi:id="_PFN2ACM_EeGDEcXqDWiNpQ" name="\Unspecified\" receiveEvent="_PFOdECM_EeGDEcXqDWiNpQ" sendEvent="_PFN2ASM_EeGDEcXqDWiNpQ" connector="_PFQSQSM_EeGDEcXqDWiNpQ"/>
+          <message xmi:id="_PFPrMCM_EeGDEcXqDWiNpQ" name="\Unspecified\" messageSort="reply" receiveEvent="_PFQSQCM_EeGDEcXqDWiNpQ" sendEvent="_PFPEISM_EeGDEcXqDWiNpQ" connector="_PFQSQSM_EeGDEcXqDWiNpQ"/>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Zbe_sCMSEeGDEcXqDWiNpQ" name="calculateTotalPrice">
           <eAnnotations xmi:id="_ZbiqECMSEeGDEcXqDWiNpQ" source="uml2.diagrams">
@@ -1550,8 +1550,8 @@
           <message xmi:id="_DH5CACM3EeGDEcXqDWiNpQ" name="calculate" receiveEvent="_DH0wkCM3EeGDEcXqDWiNpQ" sendEvent="_DHy7YCM3EeGDEcXqDWiNpQ" connector="_JYwIoCMiEeGDEcXqDWiNpQ"/>
           <message xmi:id="_8YGzcCM6EeGDEcXqDWiNpQ" name="setAvailability" receiveEvent="_8YHagCM6EeGDEcXqDWiNpQ" sendEvent="_8YGzcSM6EeGDEcXqDWiNpQ" connector="_PP6bMSMgEeGDEcXqDWiNpQ"/>
           <message xmi:id="_8YIooCM6EeGDEcXqDWiNpQ" name="setAvailability" messageSort="reply" receiveEvent="_8YJPsCM6EeGDEcXqDWiNpQ" sendEvent="_8YIBkSM6EeGDEcXqDWiNpQ" connector="_PP6bMSMgEeGDEcXqDWiNpQ"/>
-          <message xmi:id="_zxbfQCM_EeGDEcXqDWiNpQ" name="save" receiveEvent="_zxdUcCM_EeGDEcXqDWiNpQ" sendEvent="_zxcGUCM_EeGDEcXqDWiNpQ" connector="_zxgXwCM_EeGDEcXqDWiNpQ"/>
-          <message xmi:id="_zxfJoCM_EeGDEcXqDWiNpQ" name="save" messageSort="reply" receiveEvent="_zxfwsCM_EeGDEcXqDWiNpQ" sendEvent="_zxeikCM_EeGDEcXqDWiNpQ" connector="_zxgXwCM_EeGDEcXqDWiNpQ"/>
+          <message xmi:id="_zxbfQCM_EeGDEcXqDWiNpQ" name="\Unspecified\" receiveEvent="_zxdUcCM_EeGDEcXqDWiNpQ" sendEvent="_zxcGUCM_EeGDEcXqDWiNpQ" connector="_zxgXwCM_EeGDEcXqDWiNpQ"/>
+          <message xmi:id="_zxfJoCM_EeGDEcXqDWiNpQ" name="\Unspecified\" messageSort="reply" receiveEvent="_zxfwsCM_EeGDEcXqDWiNpQ" sendEvent="_zxeikCM_EeGDEcXqDWiNpQ" connector="_zxgXwCM_EeGDEcXqDWiNpQ"/>
           <message xmi:id="_b0csQCNAEeGDEcXqDWiNpQ" name="findOffer" receiveEvent="_b0g9sCNAEeGDEcXqDWiNpQ" sendEvent="_b0gWoCNAEeGDEcXqDWiNpQ" connector="_b0iy4SNAEeGDEcXqDWiNpQ"/>
           <message xmi:id="_b0iL0SNAEeGDEcXqDWiNpQ" name="findOffer" messageSort="reply" receiveEvent="_b0iy4CNAEeGDEcXqDWiNpQ" sendEvent="_b0iL0CNAEeGDEcXqDWiNpQ" connector="_b0iy4SNAEeGDEcXqDWiNpQ"/>
         </ownedBehavior>
@@ -4750,11 +4750,11 @@
                   <body>date available for this room type</body>
                 </specification>
               </guard>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SeZNcCShEeG-MpmVsAvy_w" covered="_S6ZfICQAEeGbQs5FC9Exbw" event="_9KzwwCQAEeGbQs5FC9Exbw" message="_Sede4CShEeG-MpmVsAvy_w"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SeabkCShEeG-MpmVsAvy_w" covered="_cl_asCQAEeGbQs5FC9Exbw" event="_9KzwwSQAEeGbQs5FC9Exbw" message="_Sede4CShEeG-MpmVsAvy_w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SeZNcCShEeG-MpmVsAvy_w" covered="_S6ZfICQAEeGbQs5FC9Exbw" event="_iNPycCMhEeGDEcXqDWiNpQ" message="_Sede4CShEeG-MpmVsAvy_w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SeabkCShEeG-MpmVsAvy_w" covered="_cl_asCQAEeGbQs5FC9Exbw" event="_iNQZgCMhEeGDEcXqDWiNpQ" message="_Sede4CShEeG-MpmVsAvy_w"/>
               <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_SeabkSShEeG-MpmVsAvy_w" covered="_cl_asCQAEeGbQs5FC9Exbw" start="_SeabkCShEeG-MpmVsAvy_w" finish="_SebpsCShEeG-MpmVsAvy_w"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SebpsCShEeG-MpmVsAvy_w" covered="_cl_asCQAEeGbQs5FC9Exbw" event="_9KzwwCQAEeGbQs5FC9Exbw" message="_SeeF8CShEeG-MpmVsAvy_w"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Sec30CShEeG-MpmVsAvy_w" covered="_S6ZfICQAEeGbQs5FC9Exbw" event="_9KzwwSQAEeGbQs5FC9Exbw" message="_SeeF8CShEeG-MpmVsAvy_w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SebpsCShEeG-MpmVsAvy_w" covered="_cl_asCQAEeGbQs5FC9Exbw" event="_iNPycCMhEeGDEcXqDWiNpQ" message="_SeeF8CShEeG-MpmVsAvy_w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Sec30CShEeG-MpmVsAvy_w" covered="_S6ZfICQAEeGbQs5FC9Exbw" event="_iNQZgCMhEeGDEcXqDWiNpQ" message="_SeeF8CShEeG-MpmVsAvy_w"/>
             </operand>
             <operand xmi:id="_LnPIYCShEeG-MpmVsAvy_w">
               <guard xmi:id="_LnQ9kCShEeG-MpmVsAvy_w" name="else">
@@ -4791,8 +4791,8 @@
           <message xmi:id="_3mE84yQAEeGbQs5FC9Exbw" name="setPercentage" messageSort="reply" receiveEvent="_3mE85CQAEeGbQs5FC9Exbw" sendEvent="_3mE84iQAEeGbQs5FC9Exbw" connector="_tKWk4yQAEeGbQs5FC9Exbw"/>
           <message xmi:id="_R98D0CQ1EeGzlrQTuViMxg" name="refresh" receiveEvent="_R-F00SQ1EeGzlrQTuViMxg" sendEvent="_R-F00CQ1EeGzlrQTuViMxg" connector="__MvzVSQAEeGbQs5FC9Exbw"/>
           <message xmi:id="_R-F01CQ1EeGzlrQTuViMxg" name="refresh" messageSort="reply" receiveEvent="_R-F01SQ1EeGzlrQTuViMxg" sendEvent="_R-F00yQ1EeGzlrQTuViMxg" connector="__MvzVSQAEeGbQs5FC9Exbw"/>
-          <message xmi:id="_Sede4CShEeG-MpmVsAvy_w" name="save" receiveEvent="_SeabkCShEeG-MpmVsAvy_w" sendEvent="_SeZNcCShEeG-MpmVsAvy_w" connector="_84B-tyQAEeGbQs5FC9Exbw"/>
-          <message xmi:id="_SeeF8CShEeG-MpmVsAvy_w" name="save" messageSort="reply" receiveEvent="_Sec30CShEeG-MpmVsAvy_w" sendEvent="_SebpsCShEeG-MpmVsAvy_w" connector="_84B-tyQAEeGbQs5FC9Exbw"/>
+          <message xmi:id="_Sede4CShEeG-MpmVsAvy_w" name="findOffer" receiveEvent="_SeabkCShEeG-MpmVsAvy_w" sendEvent="_SeZNcCShEeG-MpmVsAvy_w" connector="_84B-tyQAEeGbQs5FC9Exbw"/>
+          <message xmi:id="_SeeF8CShEeG-MpmVsAvy_w" name="findOffer" messageSort="reply" receiveEvent="_Sec30CShEeG-MpmVsAvy_w" sendEvent="_SebpsCShEeG-MpmVsAvy_w" connector="_84B-tyQAEeGbQs5FC9Exbw"/>
           <message xmi:id="_hTG-8CShEeG-MpmVsAvy_w" name="showWarning(&quot;Υπάρχει ήδη προσφορά ανάμεσα στις &quot; + startingDate + &quot; και &quot; + endingDate + &quot; για τον τύπο δωματίου: &quot; + roomType )" receiveEvent="_hTHmASShEeG-MpmVsAvy_w" sendEvent="_hTHmACShEeG-MpmVsAvy_w" connector="__MvzVSQAEeGbQs5FC9Exbw"/>
           <message xmi:id="_hTI0ISShEeG-MpmVsAvy_w" name="showWarning" messageSort="reply" receiveEvent="_hTJbMCShEeG-MpmVsAvy_w" sendEvent="_hTI0ICShEeG-MpmVsAvy_w" connector="__MvzVSQAEeGbQs5FC9Exbw"/>
         </ownedBehavior>
@@ -4853,12 +4853,12 @@
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_1s5IYCMpEeGDEcXqDWiNpQ" name="ReceiveOperationEvent21" operation="_1s36QCMpEeGDEcXqDWiNpQ"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_Mtb2YCMrEeGDEcXqDWiNpQ" name="SendOperationEvent23" operation="_MtaoQCMrEeGDEcXqDWiNpQ"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_MtcdcCMrEeGDEcXqDWiNpQ" name="ReceiveOperationEvent22" operation="_MtaoQCMrEeGDEcXqDWiNpQ"/>
-      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_TdoX0CMrEeGDEcXqDWiNpQ" name="SendOperationEvent24" operation="_tKoxsCAvEeGAn4sJMyy2Cg"/>
-      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Tdpl8CMrEeGDEcXqDWiNpQ" name="ReceiveOperationEvent23" operation="_tKoxsCAvEeGAn4sJMyy2Cg"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_TdoX0CMrEeGDEcXqDWiNpQ" name="SendOperationEvent24"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Tdpl8CMrEeGDEcXqDWiNpQ" name="ReceiveOperationEvent23"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_AWAzcCM7EeGDEcXqDWiNpQ" name="SendOperationEvent25" operation="_AV_lUCM7EeGDEcXqDWiNpQ"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_AWBagCM7EeGDEcXqDWiNpQ" name="ReceiveOperationEvent24" operation="_AV_lUCM7EeGDEcXqDWiNpQ"/>
-      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_IRQLsCM7EeGDEcXqDWiNpQ" name="SendOperationEvent26" operation="_9JLYYCA3EeGAn4sJMyy2Cg"/>
-      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_IRQywCM7EeGDEcXqDWiNpQ" name="ReceiveOperationEvent25" operation="_9JLYYCA3EeGAn4sJMyy2Cg"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_IRQLsCM7EeGDEcXqDWiNpQ" name="SendOperationEvent26"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_IRQywCM7EeGDEcXqDWiNpQ" name="ReceiveOperationEvent25"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_I4JwYSP7EeGbQs5FC9Exbw" name="SendOperationEvent27"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_I4JwYiP7EeGbQs5FC9Exbw" name="ReceiveOperationEvent26"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_mXY1kCP7EeGbQs5FC9Exbw" name="ReceiveOperationEvent27" operation="_mXPEkCP7EeGbQs5FC9Exbw"/>
@@ -4892,8 +4892,8 @@
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_2YcFEiQAEeGbQs5FC9Exbw" name="ReceiveOperationEvent40" operation="_2YcFECQAEeGbQs5FC9Exbw"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_4esm8SQAEeGbQs5FC9Exbw" name="SendOperationEvent43" operation="_4esm8CQAEeGbQs5FC9Exbw"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_4esm8iQAEeGbQs5FC9Exbw" name="ReceiveOperationEvent41" operation="_4esm8CQAEeGbQs5FC9Exbw"/>
-      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_9KzwwCQAEeGbQs5FC9Exbw" name="SendOperationEvent44" operation="_4_xtACP7EeGbQs5FC9Exbw"/>
-      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_9KzwwSQAEeGbQs5FC9Exbw" name="ReceiveOperationEvent42" operation="_4_xtACP7EeGbQs5FC9Exbw"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_9KzwwCQAEeGbQs5FC9Exbw" name="SendOperationEvent44"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_9KzwwSQAEeGbQs5FC9Exbw" name="ReceiveOperationEvent42"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_i1-f4CShEeG-MpmVsAvy_w" name="SendOperationEvent45" operation="_i18qsCShEeG-MpmVsAvy_w"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_i1_uACShEeG-MpmVsAvy_w" name="ReceiveOperationEvent43" operation="_i18qsCShEeG-MpmVsAvy_w"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_U76t4CSjEeG-MpmVsAvy_w" name="SendOperationEvent46" operation="_U76G0CSjEeG-MpmVsAvy_w"/>
@@ -5131,10 +5131,6 @@
               </ownedParameter>
               <ownedParameter xmi:id="_3QdvwCMwEeGDEcXqDWiNpQ" name="currentReservation" type="_kHDqEB1KEeGoZa_Yp02gKQ" isOrdered="true" direction="return"/>
             </ownedOperation>
-            <ownedOperation xmi:id="_tKoxsCAvEeGAn4sJMyy2Cg" name="save">
-              <ownedParameter xmi:id="_SFFgcCM_EeGDEcXqDWiNpQ" name="currentReservation" type="_kHDqEB1KEeGoZa_Yp02gKQ"/>
-            </ownedOperation>
-            <ownedOperation xmi:id="_uLdVgCAvEeGAn4sJMyy2Cg" name="delete"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="__-w14B38EeGFd8AlelcNJQ" name="RoomDAO">
             <generalization xmi:id="_Z_2hgCEkEeGBcbBR7HlMgA" general="_YN1KQCEkEeGBcbBR7HlMgA"/>
@@ -5147,10 +5143,6 @@
                 <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6HzWAddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Integer?"/>
               </ownedParameter>
             </ownedOperation>
-            <ownedOperation xmi:id="_9JLYYCA3EeGAn4sJMyy2Cg" name="save">
-              <ownedParameter xmi:id="_Hu1B0CNAEeGDEcXqDWiNpQ" name="currResRoom" type="_m1aGsB1KEeGoZa_Yp02gKQ"/>
-            </ownedOperation>
-            <ownedOperation xmi:id="_9qQFICA3EeGAn4sJMyy2Cg" name="delete"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_JcNAsB39EeGFd8AlelcNJQ" name="DAOFactory" clientDependency="_wos-cCaaEeGgVetHUvZbYw" isAbstract="true">
             <ownedAttribute xmi:id="_ZHRo0CEmEeGBcbBR7HlMgA" name="factory" visibility="private" isStatic="true" type="_JcNAsB39EeGFd8AlelcNJQ"/>
@@ -5172,9 +5164,12 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_7tvSECEcEeGByJQNmUz3cw" name="CustomerDAO">
             <generalization xmi:id="_KosxUCEkEeGBcbBR7HlMgA" general="_9F1pQCEjEeGBcbBR7HlMgA"/>
-            <ownedOperation xmi:id="_UtPbkCEoEeGBcbBR7HlMgA" name="find" visibility="public"/>
-            <ownedOperation xmi:id="_WnN08CEoEeGBcbBR7HlMgA" name="save"/>
-            <ownedOperation xmi:id="_XqCj4CEoEeGBcbBR7HlMgA" name="delete"/>
+            <ownedOperation xmi:id="_UtPbkCEoEeGBcbBR7HlMgA" name="find" visibility="public">
+              <ownedParameter xmi:id="_MN_XACdtEeG5wc2-sJ9F-w" name="customerID">
+                <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6HzWAddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Integer?"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_dlz-cCdtEeG5wc2-sJ9F-w" name="customer" type="_cpxZIB1KEeGoZa_Yp02gKQ" direction="return"/>
+            </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_9F1pQCEjEeGBcbBR7HlMgA" name="GenericDAO&lt;Customer>">
             <templateBinding xmi:id="_9GODwCEjEeGBcbBR7HlMgA" signature="_q7VAoCEjEeGBcbBR7HlMgA">
@@ -5200,8 +5195,6 @@
                 <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6Hy0wddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Double?"/>
               </ownedParameter>
             </ownedOperation>
-            <ownedOperation xmi:id="_4_xtACP7EeGbQs5FC9Exbw" name="save"/>
-            <ownedOperation xmi:id="_6noboCP7EeGbQs5FC9Exbw" name="delete"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_o5KF4CLWEeGRet_CnmqDYA" name="GenericDAO&lt;Offer>">
             <templateBinding xmi:id="_o5KF4iLWEeGRet_CnmqDYA" signature="_q7VAoCEjEeGBcbBR7HlMgA">
@@ -5497,10 +5490,8 @@
               <ownedParameter xmi:id="_AbOkQCMzEeGDEcXqDWiNpQ" name="pricePerDay" direction="return">
                 <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6Hy0wddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Double?"/>
               </ownedParameter>
-              <ownedParameter xmi:id="_fJWhoCM3EeGDEcXqDWiNpQ" name="currResRoom" type="_m1aGsB1KEeGoZa_Yp02gKQ"/>
             </ownedOperation>
             <ownedOperation xmi:id="_JwrV4CMhEeGDEcXqDWiNpQ" name="getRoomType">
-              <ownedParameter xmi:id="_HTr3kCM4EeGDEcXqDWiNpQ" name="currResRoom" type="_m1aGsB1KEeGoZa_Yp02gKQ"/>
               <ownedParameter xmi:id="_KR4uECM4EeGDEcXqDWiNpQ" name="roomType" direction="return">
                 <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
               </ownedParameter>
@@ -5549,7 +5540,7 @@
             </ownedOperation>
             <ownedOperation xmi:id="_4esm8CQAEeGbQs5FC9Exbw" name="setPercentage">
               <ownedParameter xmi:id="_KBz6wCQ1EeGzlrQTuViMxg" name="percentage">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6Hy0wddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Double?"/>
               </ownedParameter>
             </ownedOperation>
           </packagedElement>
@@ -5989,21 +5980,45 @@
             <templateBinding xmi:id="_eoO_cCaWEeGgVetHUvZbYw" signature="_LYyvECaWEeGgVetHUvZbYw">
               <parameterSubstitution xmi:id="_eoQ0oCaWEeGgVetHUvZbYw" formal="_LYzWICaWEeGgVetHUvZbYw" actual="_cpxZIB1KEeGoZa_Yp02gKQ"/>
             </templateBinding>
+            <ownedOperation xmi:id="_-YD7QCdnEeGjnsjEnzkVtA" name="save">
+              <ownedParameter xmi:id="_ZLOJ0CdqEeG5wc2-sJ9F-w" name="entity" type="_LY4OoCaWEeGgVetHUvZbYw"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="__J0IUCdnEeGjnsjEnzkVtA" name="delete">
+              <ownedParameter xmi:id="_nhPNICdqEeG5wc2-sJ9F-w" name="entity" type="_LY4OoCaWEeGgVetHUvZbYw"/>
+            </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_qVssICaWEeGgVetHUvZbYw" name="GenericJpaDAO&lt;Offer>">
             <templateBinding xmi:id="_qVuhUCaWEeGgVetHUvZbYw" signature="_LYyvECaWEeGgVetHUvZbYw">
               <parameterSubstitution xmi:id="_qVvIYCaWEeGgVetHUvZbYw" formal="_LYzWICaWEeGgVetHUvZbYw" actual="_nptRcB1KEeGoZa_Yp02gKQ"/>
             </templateBinding>
+            <ownedOperation xmi:id="__4Rw0CdnEeGjnsjEnzkVtA" name="save">
+              <ownedParameter xmi:id="_qtMy0CdqEeG5wc2-sJ9F-w" name="entity" type="_LY4OoCaWEeGgVetHUvZbYw"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Avqr0CdoEeGjnsjEnzkVtA" name="delete">
+              <ownedParameter xmi:id="_vg2IACdqEeG5wc2-sJ9F-w" name="T" type="_LY4OoCaWEeGgVetHUvZbYw"/>
+            </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_39sL0CaWEeGgVetHUvZbYw" name="GenericJpaDAO&lt;Reservation>">
             <templateBinding xmi:id="_39uoECaWEeGgVetHUvZbYw" signature="_LYyvECaWEeGgVetHUvZbYw">
               <parameterSubstitution xmi:id="_39y5gCaWEeGgVetHUvZbYw" formal="_LYzWICaWEeGgVetHUvZbYw" actual="_kHDqEB1KEeGoZa_Yp02gKQ"/>
             </templateBinding>
+            <ownedOperation xmi:id="_DYFfkCdoEeGjnsjEnzkVtA" name="save">
+              <ownedParameter xmi:id="_7kYyYCdqEeG5wc2-sJ9F-w" name="entity" type="_LY4OoCaWEeGgVetHUvZbYw"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_D-nUECdoEeGjnsjEnzkVtA" name="delete">
+              <ownedParameter xmi:id="_-oMhoCdqEeG5wc2-sJ9F-w" name="entity" type="_LY4OoCaWEeGgVetHUvZbYw"/>
+            </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_-XdKQCaWEeGgVetHUvZbYw" name="GenericJpaDAO&lt;Room>">
             <templateBinding xmi:id="_-Xe_cSaWEeGgVetHUvZbYw" signature="_LYyvECaWEeGgVetHUvZbYw">
               <parameterSubstitution xmi:id="_-XfmgCaWEeGgVetHUvZbYw" formal="_LYzWICaWEeGgVetHUvZbYw" actual="_m1aGsB1KEeGoZa_Yp02gKQ"/>
             </templateBinding>
+            <ownedOperation xmi:id="_Bq_roCdoEeGjnsjEnzkVtA" name="save">
+              <ownedParameter xmi:id="_155UwCdqEeG5wc2-sJ9F-w" name="entity" type="_LY4OoCaWEeGgVetHUvZbYw"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_CqsOECdoEeGjnsjEnzkVtA" name="delete">
+              <ownedParameter xmi:id="_4iIiUCdqEeG5wc2-sJ9F-w" name="entity" type="_LY4OoCaWEeGgVetHUvZbYw"/>
+            </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_L2nEQB4WEeGFd8AlelcNJQ" name="CustomerJpaDAO" clientDependency="_Q4oMoB4WEeGFd8AlelcNJQ _oSytUCajEeGgVetHUvZbYw">
             <generalization xmi:id="_yL-PYCaXEeGgVetHUvZbYw" general="_enyTgCaWEeGgVetHUvZbYw"/>
