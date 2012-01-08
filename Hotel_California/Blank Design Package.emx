@@ -1776,7 +1776,7 @@
         <ownedAttribute xmi:id="_poGsYSMfEeGDEcXqDWiNpQ" name="offerDAO" type="_r5eHICLUEeGRet_CnmqDYA"/>
         <ownedAttribute xmi:id="_qkWtsCMpEeGDEcXqDWiNpQ" name="currentReservation" type="_kHDqEB1KEeGoZa_Yp02gKQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Collaboration" xmi:id="_Y8SzAB4UEeGFd8AlelcNJQ" name="Εμφάνιση Στατιστικών Στοιχείων">
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_Y8SzAB4UEeGFd8AlelcNJQ" name="Σύνδεση Στο Σύστημα">
         <eAnnotations xmi:id="_QWmDEB7FEeGWY4WntWEt3w" source="uml2.diagrams">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_QWmDER7FEeGWY4WntWEt3w" type="Class" name="Participants">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_Mi6OsB7IEeGWY4WntWEt3w" element="_J3zv0B7HEeGWY4WntWEt3w" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -5496,6 +5496,8 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_YhFy0B4WEeGFd8AlelcNJQ" name="RoomJpaDAO" clientDependency="_2NQj8B4aEeGFd8AlelcNJQ _oTG2YCajEeGgVetHUvZbYw">
             <generalization xmi:id="_4SI8YCaXEeGgVetHUvZbYw" general="_-XdKQCaWEeGgVetHUvZbYw"/>
             <interfaceRealization xmi:id="_oTG2YCajEeGgVetHUvZbYw" supplier="__-w14B38EeGFd8AlelcNJQ" client="_YhFy0B4WEeGFd8AlelcNJQ" contract="__-w14B38EeGFd8AlelcNJQ"/>
+            <ownedOperation xmi:id="_y-wV0DngEeGVK8mcc0vh5A" name="create"/>
+            <ownedOperation xmi:id="_20n0IDngEeGVK8mcc0vh5A" name="find"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Realization" xmi:id="_2NQj8B4aEeGFd8AlelcNJQ" client="_YhFy0B4WEeGFd8AlelcNJQ">
             <supplier xmi:type="uml:Class" href="Hotel%20Analysis%20Model.emx#_Tix0oACcEeGPlNxwpe8W4w?Hotel%20Analysis%20Model/Analysis%20Classes/entities/Room?"/>
@@ -5527,7 +5529,9 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Usage" xmi:id="_IzUngB4YEeGFd8AlelcNJQ" supplier="_JcNAsB39EeGFd8AlelcNJQ" client="_FnQmEB4WEeGFd8AlelcNJQ"/>
           <packagedElement xmi:type="uml:Usage" xmi:id="_6SHLYB4YEeGFd8AlelcNJQ" supplier="_cpxZIB1KEeGoZa_Yp02gKQ" client="_FnQmEB4WEeGFd8AlelcNJQ"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_Z8s4YB4aEeGFd8AlelcNJQ" name="RoomService" clientDependency="_ppL_YB4aEeGFd8AlelcNJQ _o899IB4bEeGFd8AlelcNJQ _pWTDIB4bEeGFd8AlelcNJQ _pr6GwB4bEeGFd8AlelcNJQ _uFXOMCKYEeGSMq9XC72Y2A _uqDPoCKYEeGSMq9XC72Y2A _vKBJICKYEeGSMq9XC72Y2A"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Z8s4YB4aEeGFd8AlelcNJQ" name="RoomService" clientDependency="_ppL_YB4aEeGFd8AlelcNJQ _o899IB4bEeGFd8AlelcNJQ _pWTDIB4bEeGFd8AlelcNJQ _pr6GwB4bEeGFd8AlelcNJQ _uFXOMCKYEeGSMq9XC72Y2A _uqDPoCKYEeGSMq9XC72Y2A _vKBJICKYEeGSMq9XC72Y2A">
+            <ownedOperation xmi:id="_mYKBsDngEeGVK8mcc0vh5A" name="findRoom"/>
+          </packagedElement>
           <packagedElement xmi:type="uml:Realization" xmi:id="_ppL_YB4aEeGFd8AlelcNJQ" client="_Z8s4YB4aEeGFd8AlelcNJQ">
             <supplier xmi:type="uml:Class" href="Hotel%20Analysis%20Model.emx#_mxmuQB4aEeGFd8AlelcNJQ?Hotel%20Analysis%20Model/Analysis%20Classes/controllers/RoomController?"/>
           </packagedElement>
