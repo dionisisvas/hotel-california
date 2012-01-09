@@ -2347,7 +2347,7 @@
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_6F7gQCArEeGAn4sJMyy2Cg" type="OperationCompartment"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_6F8HUCArEeGAn4sJMyy2Cg" visible="false" type="SignalCompartment"/>
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_6F8uYCArEeGAn4sJMyy2Cg" visible="false" type="StructureCompartment"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6F1ZoSArEeGAn4sJMyy2Cg" x="10144" y="6023"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6F1ZoSArEeGAn4sJMyy2Cg" x="10296" y="6732"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_EGV1QCAsEeGAn4sJMyy2Cg" element="_cpxZIB1KEeGoZa_Yp02gKQ" fontName="Ubuntu" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <children xmi:type="notation:DecorationNode" xmi:id="_EGYRgCAsEeGAn4sJMyy2Cg" type="ImageCompartment">
@@ -2445,7 +2445,7 @@
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_yj1KUSA3EeGAn4sJMyy2Cg" type="AttributeCompartment"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_yj1xYCA3EeGAn4sJMyy2Cg" type="OperationCompartment"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_yj2YcCA3EeGAn4sJMyy2Cg" visible="false" type="SignalCompartment"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yjyHASA3EeGAn4sJMyy2Cg" x="2219" y="5706"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yjyHASA3EeGAn4sJMyy2Cg" x="6072" y="6072"/>
             </children>
             <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_-5JAsCLVEeGRet_CnmqDYA" element="_7tvSECEcEeGByJQNmUz3cw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
               <children xmi:type="notation:DecorationNode" xmi:id="_-5JAsiLVEeGRet_CnmqDYA" type="ImageCompartment">
@@ -2557,7 +2557,7 @@
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_Bq2i4SAvEeGAn4sJMyy2Cg" type="Name"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bq170SAvEeGAn4sJMyy2Cg" y="-186"/>
               </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bq1UwSAvEeGAn4sJMyy2Cg" points="[-44, -24, 196, 113]$[-172, -93, 68, 44]"/>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bq1UwSAvEeGAn4sJMyy2Cg" points="[-1338, -1123, 4665, 3918]$[-1338, -2193, 4665, 2848]$[-2754, -2193, 3249, 2848]$[-2754, -3521, 3249, 1520]$[-4192, -3521, 1811, 1520]"/>
             </edges>
             <edges xmi:type="umlnotation:UMLConnector" xmi:id="_XdM04CAvEeGAn4sJMyy2Cg" element="_B6xW4B6-EeGRAvLg-O8iSA" source="_6F1ZoCArEeGAn4sJMyy2Cg" target="_XdFgICAvEeGAn4sJMyy2Cg" fontName="Ubuntu" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
               <children xmi:type="notation:DecorationNode" xmi:id="_XdNb8CAvEeGAn4sJMyy2Cg" type="KindLabel">
@@ -6026,8 +6026,8 @@
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_UjSkcDmJEeGFt5NsOZ3VcQ" name="presenter">
-          <eAnnotations xmi:id="_UjSkcTmJEeGFt5NsOZ3VcQ" source="uml2.diagrams" references="_UjSkcjmJEeGFt5NsOZ3VcQ">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_UjSkcjmJEeGFt5NsOZ3VcQ" type="Freeform" name="Main">
+          <eAnnotations xmi:id="_UjSkcTmJEeGFt5NsOZ3VcQ" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_DM8T4DpeEeG1tdXfCfwAzQ" type="Class" name="Realizations">
               <element xsi:nil="true"/>
             </contents>
           </eAnnotations>
