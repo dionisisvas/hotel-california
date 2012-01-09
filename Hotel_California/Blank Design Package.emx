@@ -7095,7 +7095,24 @@
           <packagedElement xmi:type="uml:Realization" xmi:id="_SJU-MDpfEeG1tdXfCfwAzQ" supplier="_8z1BYCLSEeGRet_CnmqDYA" client="_s7cbEDmJEeGFt5NsOZ3VcQ"/>
           <packagedElement xmi:type="uml:Realization" xmi:id="_VrFNsDpfEeG1tdXfCfwAzQ" supplier="_8z1BYCLSEeGRet_CnmqDYA" client="_v829oDmJEeGFt5NsOZ3VcQ"/>
           <packagedElement xmi:type="uml:Realization" xmi:id="_YpNywDpfEeG1tdXfCfwAzQ" supplier="_Z8s4YB4aEeGFd8AlelcNJQ" client="_ND08sDmeEeGl2JVY1-LRPg"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_qg4X4DpfEeG1tdXfCfwAzQ" name="StatisticsPresenter" clientDependency="_tB90kDpfEeG1tdXfCfwAzQ _pIKxIDpiEeG1tdXfCfwAzQ _xK__IDpiEeG1tdXfCfwAzQ _zZTpwDpiEeG1tdXfCfwAzQ"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_qg4X4DpfEeG1tdXfCfwAzQ" name="StatisticsPresenter" clientDependency="_tB90kDpfEeG1tdXfCfwAzQ _pIKxIDpiEeG1tdXfCfwAzQ _xK__IDpiEeG1tdXfCfwAzQ _zZTpwDpiEeG1tdXfCfwAzQ">
+            <ownedAttribute xmi:id="_ErjmgDrYEeG-HodZAvzXlw" name="view" visibility="private" type="_Vvd6UB7HEeGWY4WntWEt3w"/>
+            <ownedOperation xmi:id="_Jf8ikDrYEeG-HodZAvzXlw" name="start"/>
+            <ownedOperation xmi:id="_KiUlkDrYEeG-HodZAvzXlw" name="open"/>
+            <ownedOperation xmi:id="_LLSqEDrYEeG-HodZAvzXlw" name="cancel"/>
+            <ownedOperation xmi:id="_O1IekDrYEeG-HodZAvzXlw" name="refreshStatistics"/>
+            <ownedOperation xmi:id="_RjHu0DrYEeG-HodZAvzXlw" name="calcVacancy">
+              <ownedParameter xmi:id="_TJLtsDrYEeG-HodZAvzXlw" name="totalRooms">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_XvxeUDrYEeG-HodZAvzXlw" name="availableRooms">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_cOu88DrYEeG-HodZAvzXlw" name="vacancy" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
           <packagedElement xmi:type="uml:Realization" xmi:id="_tB90kDpfEeG1tdXfCfwAzQ" supplier="_J3zv0B7HEeGWY4WntWEt3w" client="_qg4X4DpfEeG1tdXfCfwAzQ"/>
           <packagedElement xmi:type="uml:Usage" xmi:id="_pIKxIDpiEeG1tdXfCfwAzQ" supplier="_9OCasB38EeGFd8AlelcNJQ" client="_qg4X4DpfEeG1tdXfCfwAzQ"/>
           <packagedElement xmi:type="uml:Usage" xmi:id="_xK__IDpiEeG1tdXfCfwAzQ" supplier="_JcNAsB39EeGFd8AlelcNJQ" client="_qg4X4DpfEeG1tdXfCfwAzQ"/>
@@ -7527,7 +7544,51 @@
               </ownedParameter>
             </ownedOperation>
           </packagedElement>
-          <packagedElement xmi:type="uml:Interface" xmi:id="_Vvd6UB7HEeGWY4WntWEt3w" name="StatisticsView" clientDependency="_RsVI9zmKEeGFt5NsOZ3VcQ _RsVI-DmKEeGFt5NsOZ3VcQ"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Vvd6UB7HEeGWY4WntWEt3w" name="StatisticsView" clientDependency="_RsVI9zmKEeGFt5NsOZ3VcQ _RsVI-DmKEeGFt5NsOZ3VcQ">
+            <ownedOperation xmi:id="_JEytEDrXEeG-HodZAvzXlw" name="setPresenter">
+              <ownedParameter xmi:id="_K2FEgDrXEeG-HodZAvzXlw" name="presenter" type="_qg4X4DpfEeG1tdXfCfwAzQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_RihHUDrXEeG-HodZAvzXlw" name="showInfo">
+              <ownedParameter xmi:id="_84c2kDrXEeG-HodZAvzXlw" name="message">
+                <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H1MwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/StringBuffer?"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_SitZADrXEeG-HodZAvzXlw" name="showError">
+              <ownedParameter xmi:id="_6h_VgDrXEeG-HodZAvzXlw" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_UmZIADrXEeG-HodZAvzXlw" name="setTotalRooms">
+              <ownedParameter xmi:id="_z3SYEDrXEeG-HodZAvzXlw" name="totalRooms">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_VmjkgDrXEeG-HodZAvzXlw" name="setAvailableRooms">
+              <ownedParameter xmi:id="_gAWp4DrXEeG-HodZAvzXlw" name="availableRooms">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://ROSE_LIBRARIES/RoseCppDatatypes.emx#_u7MYgFKdEdmRuMDTJ25wMw?RoseCppDatatypes/int?"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_XxytADrXEeG-HodZAvzXlw" name="setCustomers">
+              <ownedParameter xmi:id="_oumzcDrXEeG-HodZAvzXlw" name="customers">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://ROSE_LIBRARIES/RoseCppDatatypes.emx#_u7MYgFKdEdmRuMDTJ25wMw?RoseCppDatatypes/int?"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Y1T_gDrXEeG-HodZAvzXlw" name="setOffers">
+              <ownedParameter xmi:id="_tEB7kDrXEeG-HodZAvzXlw" name="offers">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_ZypKcDrXEeG-HodZAvzXlw" name="setReservations">
+              <ownedParameter xmi:id="_wGQ9gDrXEeG-HodZAvzXlw" name="int">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_bnAEADrXEeG-HodZAvzXlw" name="setVacancy">
+              <ownedParameter xmi:id="_24AXEDrXEeG-HodZAvzXlw" name="vacancy">
+                <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6Hy0wddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Double?"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_Eo9KkCLTEeGRet_CnmqDYA" name="OfferView" clientDependency="_RsVI-TmKEeGFt5NsOZ3VcQ">
             <generalization xmi:id="_RRZboDnmEeGVK8mcc0vh5A" general="_PQ2HgDmWEeGl2JVY1-LRPg"/>
             <ownedOperation xmi:id="_i18qsCShEeG-MpmVsAvy_w" name="showError">
