@@ -4340,11 +4340,11 @@
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_mVFXIDqyEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" start="_mVEwEDqyEeGQB7h1GTwrsw" finish="_mVF-MDqyEeGQB7h1GTwrsw"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mVF-MDqyEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" event="_13UycDqxEeGQB7h1GTwrsw" message="_mVF-MTqyEeGQB7h1GTwrsw"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mVGlQDqyEeGQB7h1GTwrsw" covered="_jBSjYDprEeGTz8KhA_tUfA" event="_13WAkDqxEeGQB7h1GTwrsw" message="_mVF-MTqyEeGQB7h1GTwrsw"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pwuXkDqyEeGQB7h1GTwrsw" covered="_jBSjYDprEeGTz8KhA_tUfA" event="_rT4MYDqyEeGQB7h1GTwrsw" message="_pwtwgDqyEeGQB7h1GTwrsw"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pwuXkTqyEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" event="_rT5agDqyEeGQB7h1GTwrsw" message="_pwtwgDqyEeGQB7h1GTwrsw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pwuXkDqyEeGQB7h1GTwrsw" covered="_jBSjYDprEeGTz8KhA_tUfA" event="_aizCkDq3EeGrwbdnWWh31Q" message="_pwtwgDqyEeGQB7h1GTwrsw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pwuXkTqyEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" event="_ai8MgDq3EeGrwbdnWWh31Q" message="_pwtwgDqyEeGQB7h1GTwrsw"/>
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_pwu-oDqyEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" start="_pwuXkTqyEeGQB7h1GTwrsw" finish="_pwvlsDqyEeGQB7h1GTwrsw"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pwvlsDqyEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" event="_rT4MYDqyEeGQB7h1GTwrsw" message="_pwwMwDqyEeGQB7h1GTwrsw"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pwwz0DqyEeGQB7h1GTwrsw" covered="_jBSjYDprEeGTz8KhA_tUfA" event="_rT5agDqyEeGQB7h1GTwrsw" message="_pwwMwDqyEeGQB7h1GTwrsw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pwvlsDqyEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" event="_aizCkDq3EeGrwbdnWWh31Q" message="_pwwMwDqyEeGQB7h1GTwrsw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pwwz0DqyEeGQB7h1GTwrsw" covered="_jBSjYDprEeGTz8KhA_tUfA" event="_ai8MgDq3EeGrwbdnWWh31Q" message="_pwwMwDqyEeGQB7h1GTwrsw"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_w0yIdDprEeGTz8KhA_tUfA" covered="_jBSjYDprEeGTz8KhA_tUfA" event="_xPwNMDprEeGTz8KhA_tUfA" message="_w0yIdTprEeGTz8KhA_tUfA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_w0yIdjprEeGTz8KhA_tUfA" covered="_obmP8DprEeGTz8KhA_tUfA" event="_xPwNMTprEeGTz8KhA_tUfA" message="_w0yIdTprEeGTz8KhA_tUfA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3SSXYTprEeGTz8KhA_tUfA" covered="_obmP8DprEeGTz8KhA_tUfA" event="_4kZfgDprEeGTz8KhA_tUfA" message="_3SSXYDprEeGTz8KhA_tUfA"/>
@@ -4385,11 +4385,11 @@
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_7bphMDqyEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" start="_7bo6IDqyEeGQB7h1GTwrsw" finish="_7bphMTqyEeGQB7h1GTwrsw"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7bphMTqyEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" event="_13UycDqxEeGQB7h1GTwrsw" message="_7bqIQDqyEeGQB7h1GTwrsw"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7bqvUDqyEeGQB7h1GTwrsw" covered="_jBSjYDprEeGTz8KhA_tUfA" event="_13WAkDqxEeGQB7h1GTwrsw" message="_7bqIQDqyEeGQB7h1GTwrsw"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ASeGMDqzEeGQB7h1GTwrsw" covered="_jBSjYDprEeGTz8KhA_tUfA" event="_rT4MYDqyEeGQB7h1GTwrsw" message="_ASdfIDqzEeGQB7h1GTwrsw"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ASfUUDqzEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" event="_rT5agDqyEeGQB7h1GTwrsw" message="_ASdfIDqzEeGQB7h1GTwrsw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ASeGMDqzEeGQB7h1GTwrsw" covered="_jBSjYDprEeGTz8KhA_tUfA" event="_aizCkDq3EeGrwbdnWWh31Q" message="_ASdfIDqzEeGQB7h1GTwrsw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ASfUUDqzEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" event="_ai8MgDq3EeGrwbdnWWh31Q" message="_ASdfIDqzEeGQB7h1GTwrsw"/>
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ASfUUTqzEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" start="_ASfUUDqzEeGQB7h1GTwrsw" finish="_ASf7YDqzEeGQB7h1GTwrsw"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ASf7YDqzEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" event="_rT4MYDqyEeGQB7h1GTwrsw" message="_ASgicDqzEeGQB7h1GTwrsw"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AShJgDqzEeGQB7h1GTwrsw" covered="_jBSjYDprEeGTz8KhA_tUfA" event="_rT5agDqyEeGQB7h1GTwrsw" message="_ASgicDqzEeGQB7h1GTwrsw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ASf7YDqzEeGQB7h1GTwrsw" covered="_obmP8DprEeGTz8KhA_tUfA" event="_aizCkDq3EeGrwbdnWWh31Q" message="_ASgicDqzEeGQB7h1GTwrsw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AShJgDqzEeGQB7h1GTwrsw" covered="_jBSjYDprEeGTz8KhA_tUfA" event="_ai8MgDq3EeGrwbdnWWh31Q" message="_ASgicDqzEeGQB7h1GTwrsw"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6UmR1DprEeGTz8KhA_tUfA" covered="_jBSjYDprEeGTz8KhA_tUfA" event="_60MX4DprEeGTz8KhA_tUfA" message="_6UmR1TprEeGTz8KhA_tUfA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6UmR1jprEeGTz8KhA_tUfA" covered="_obmP8DprEeGTz8KhA_tUfA" event="_60MX4TprEeGTz8KhA_tUfA" message="_6UmR1TprEeGTz8KhA_tUfA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-YoH8TprEeGTz8KhA_tUfA" covered="_obmP8DprEeGTz8KhA_tUfA" event="__OagcDprEeGTz8KhA_tUfA" message="_-YoH8DprEeGTz8KhA_tUfA"/>
@@ -4807,10 +4807,12 @@
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_cFxqgDqyEeGQB7h1GTwrsw" name="ReceiveOperationEvent62" operation="_pqHlhzmPEeGFt5NsOZ3VcQ"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_jNVjEDqyEeGQB7h1GTwrsw" name="SendOperationEvent65" operation="_pqHlhTmPEeGFt5NsOZ3VcQ"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_jNWKIDqyEeGQB7h1GTwrsw" name="ReceiveOperationEvent63" operation="_pqHlhTmPEeGFt5NsOZ3VcQ"/>
-      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_rT4MYDqyEeGQB7h1GTwrsw" name="SendOperationEvent66" operation="_pqHlgjmPEeGFt5NsOZ3VcQ"/>
-      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_rT5agDqyEeGQB7h1GTwrsw" name="ReceiveOperationEvent64" operation="_pqHlgjmPEeGFt5NsOZ3VcQ"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_rT4MYDqyEeGQB7h1GTwrsw" name="SendOperationEvent66"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_rT5agDqyEeGQB7h1GTwrsw" name="ReceiveOperationEvent64"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_J0RMkDqzEeGQB7h1GTwrsw" name="SendOperationEvent67" operation="_pqHlgDmPEeGFt5NsOZ3VcQ"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_J0RzoDqzEeGQB7h1GTwrsw" name="ReceiveOperationEvent65" operation="_pqHlgDmPEeGFt5NsOZ3VcQ"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_aizCkDq3EeGrwbdnWWh31Q" name="SendOperationEvent68" operation="_HlsfYDq3EeGrwbdnWWh31Q"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_ai8MgDq3EeGrwbdnWWh31Q" name="ReceiveOperationEvent66" operation="_HlsfYDq3EeGrwbdnWWh31Q"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_H8WEoB1GEeGoZa_Yp02gKQ" name="org">
       <eAnnotations xmi:id="_H8WEoR1GEeGoZa_Yp02gKQ" source="uml2.diagrams"/>
@@ -6787,23 +6789,19 @@
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_G3cocTnqEeGVK8mcc0vh5A"/>
             </ownedAttribute>
             <ownedOperation xmi:id="_yqyHADmKEeGFt5NsOZ3VcQ" name="deleteOffer"/>
+            <ownedOperation xmi:id="_ybaS8Dq2EeGrwbdnWWh31Q" name="yearIsValid">
+              <ownedParameter xmi:id="_0VjrcDq2EeGrwbdnWWh31Q" name="year">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_CYvSUDq3EeGrwbdnWWh31Q" name="yes" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
             <ownedOperation xmi:id="_CO3_oDmOEeGFt5NsOZ3VcQ" name="percentageIsValid">
               <ownedParameter xmi:id="_FRL6EDmOEeGFt5NsOZ3VcQ" name="i">
                 <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
               </ownedParameter>
               <ownedParameter xmi:id="_72WFYDmPEeGFt5NsOZ3VcQ" name="yes" direction="return">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-              </ownedParameter>
-            </ownedOperation>
-            <ownedOperation xmi:id="_4DGIIDmNEeGFt5NsOZ3VcQ" name="yearIsValid">
-              <ownedParameter xmi:id="_80RYIDmNEeGFt5NsOZ3VcQ" name="year">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UAL_LIBRARIES/UALPrimitiveDatatypes.emx#_h28iAFIzEd2exLDlzlaiIA?UALPrimitiveDatatypes/int?"/>
-                <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_-Idj4DmNEeGFt5NsOZ3VcQ" name="">
-                  <language></language>
-                  <body></body>
-                </defaultValue>
-              </ownedParameter>
-              <ownedParameter xmi:id="_6IYHsDmPEeGFt5NsOZ3VcQ" name="yes">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
               </ownedParameter>
             </ownedOperation>
@@ -6877,6 +6875,14 @@
             <ownedAttribute xmi:id="_cI7G0DmOEeGFt5NsOZ3VcQ" name="currentOffer" visibility="private" type="_nptRcB1KEeGoZa_Yp02gKQ"/>
             <ownedAttribute xmi:id="_co2HkDmPEeGFt5NsOZ3VcQ" name="view" visibility="private" type="_iOxAgDmKEeGFt5NsOZ3VcQ"/>
             <ownedOperation xmi:id="_gLMM8DmPEeGFt5NsOZ3VcQ" name="cancel"/>
+            <ownedOperation xmi:id="_HlsfYDq3EeGrwbdnWWh31Q" name="yearIsValid">
+              <ownedParameter xmi:id="_JihYcDq3EeGrwbdnWWh31Q" name="year">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_MHqOsDq3EeGrwbdnWWh31Q" name="yes" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
             <ownedOperation xmi:id="_alO6QDqxEeGQB7h1GTwrsw" name="isParsableToInt">
               <ownedParameter xmi:id="_d2oZkDqxEeGQB7h1GTwrsw" name="i">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -6904,18 +6910,6 @@
                 <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
               </ownedParameter>
               <ownedParameter xmi:id="_GOMC8DmQEeGFt5NsOZ3VcQ" name="yes" direction="return">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-              </ownedParameter>
-            </ownedOperation>
-            <ownedOperation xmi:id="_pqHlgjmPEeGFt5NsOZ3VcQ" name="yearIsValid">
-              <ownedParameter xmi:id="_pqHlgzmPEeGFt5NsOZ3VcQ" name="year">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UAL_LIBRARIES/UALPrimitiveDatatypes.emx#_h28iAFIzEd2exLDlzlaiIA?UALPrimitiveDatatypes/int?"/>
-                <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_pqHlhDmPEeGFt5NsOZ3VcQ" name="">
-                  <language></language>
-                  <body></body>
-                </defaultValue>
-              </ownedParameter>
-              <ownedParameter xmi:id="_IelYQDmQEeGFt5NsOZ3VcQ" name="yes" direction="return">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
               </ownedParameter>
             </ownedOperation>
@@ -7658,11 +7652,6 @@
               </ownedParameter>
             </ownedOperation>
             <ownedOperation xmi:id="_H4jAEDmdEeGl2JVY1-LRPg" name="setPhone"/>
-            <ownedOperation xmi:id="_JZjf0DmdEeGl2JVY1-LRPg" name="setModifyActionEnabled">
-              <ownedParameter xmi:id="_UvF0sDmdEeGl2JVY1-LRPg" name="enabled">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UAL_LIBRARIES/UALPrimitiveDatatypes.emx#_e_oMEFIyEd2exLDlzlaiIA?UALPrimitiveDatatypes/boolean?"/>
-              </ownedParameter>
-            </ownedOperation>
             <ownedOperation xmi:id="_NhmTQDmdEeGl2JVY1-LRPg" name="isModifyActionEnabled"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_Zfhd0DmdEeGl2JVY1-LRPg" name="CustomerRegistrationView">
